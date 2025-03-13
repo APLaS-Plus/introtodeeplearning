@@ -1,3 +1,21 @@
+## 简介
+
+原MIT课后习题仓库，现拉取更改为转载用仓库，在原仓库的基础上，添加了ppt材料。
+
+## 使用方法
+
+Lab 1到Lab 3为课后习题，ppt文件夹中为课程资料。只需在仓库文件夹下创建独立的虚拟环境即可使用。
+
+安装过程：
+
+```shell
+python -m venv .venv # 创建虚拟环境
+.venv\Scripts\Activate.ps1 # 进入虚拟环境
+pip install mitdeeplearning # 安装课程需要的库
+```
+
+习题都是jupyter的格式，需要任何帮助请提issue。
+
 [![banner](assets/banner.png)](http://introtodeeplearning.com)
 
 This repository contains all of the code and software labs for [MIT Introduction to Deep Learning](http://introtodeeplearning.com)! All lecture slides and videos are available on the program website.
